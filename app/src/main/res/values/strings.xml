@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Тишина Елена</string>
+
+    <string name="title_reting">Рейтинг</string>
+    <string name="title_code">Написано строк кода</string>
+    <string name="title_num_projects">Проектов</string>
+
+    <string name="hint_phone">Мобильный</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_vk">Профиль в VK</string>
+    <string name="hint_repo">Репозиторий</string>
+    <string name="hint_about_me">О себе</string>
+
+    <string name="text_phone">+7(910)536–23–84</string>
+    <string name="text_email">eSilence@gmail.com</string>
+    <string name="text_github">github.com/eSilence/DevIntensive</string>
+    <string name="text_vk">vk.com/eSilence</string>
+    <string name="text_about_me">Text about me...... text about me.....</string>
 </resources>
