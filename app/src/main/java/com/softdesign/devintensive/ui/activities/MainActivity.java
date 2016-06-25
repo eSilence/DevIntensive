@@ -1,6 +1,7 @@
 package com.softdesign.devintensive.ui.activities;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -79,8 +80,21 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.call_img:
-                showProgress();
+//                showProgress();
+//                runwithDelay();
                 break;
         }
     }
+
+//    private void runwithDelay(){
+//        final Handler handle = new Handler();
+//        handle.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                // задержка
+//                hideProgress();
+//
+//            }
+//        },3000);
+//    }
 }
